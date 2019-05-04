@@ -4,18 +4,12 @@
 using namespace std;
 
 void randomFunc(int* arr, int size);
-void randomFunc1(int* arr, int size);
 void output(int* arr, int size);
 void fromKeyboard(int* arr, int size);
 int choice();
 
 void ShellSort(int* arr, int size);
 void quickSort(int* arr, int left, int right, int& quickSortComp, int& quickSortPerm, int size);
-void countingSort(int* arr, int size);
-void radixsort(int* arr, int size);
-
-int radixPerm = 0;
-
 
 int main() {
 
